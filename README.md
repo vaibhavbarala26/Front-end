@@ -1,12 +1,51 @@
-# React + Vite
+# SidePageRepairPage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a recreation of the SidePageRepairPage component based on a Figma design, featuring a fully interactive interface with queue management, drag-and-drop inventory/crafting table, and history tracking.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+### Tabs System
+- Three tabs at the top: **Queue**, **Table**, and **History**.
+- Switching tabs updates the displayed content dynamically without page reload.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Queue Tab
+- Displays multiple queue items representing repair jobs.
+- Each item shows:
+  - Item name
+  - Start time
+  - End time
+  - Remaining time (counting down)
+  - Progress bar (%), updating in real-time.
+- Progress automatically increases over time based on start/end times.
+- Items auto-remove when progress reaches 100%.
+- **Added a Queue Add Form** to demonstrate the mechanism of adding new items dynamically to the queue.
+
+### Table & Inventory (Drag and Drop)
+- Inventory and Crafting Table support drag-and-drop operations.
+- Items can be moved between the two sections.
+- Supports moving full or partial stacks.
+- Quantities update correctly in both source and destination.
+
+### History Tab
+- Displays history cards consistent with the Figma design.
+- Fully responsive layout.
+
+---
+
+## Technologies Used
+
+- Frontend framework: [React / Vue / Svelte] *(specify your choice here)*
+- State management: *(e.g., Zustand, Redux, Vuex, or local state)*
+- Styling: *(e.g., Tailwind CSS, CSS Modules, or plain CSS)*
+- Drag and Drop: *(e.g., React DnD, Vue Draggable, or native HTML5 drag-and-drop)*
+
+---
+
+## Setup & Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sidepage-repair-app.git
+```
