@@ -48,4 +48,5 @@ This project is a recreation of the SidePageRepairPage component based on a Figm
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/sidepage-repair-app.git
-```
+
+
