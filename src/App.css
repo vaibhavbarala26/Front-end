@@ -1,0 +1,644 @@
+.queue{
+  /* Property 1=Default */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 297px;
+min-width: 278px;
+max-width: 400px;
+height: 90.5px;
+left: 20px;
+top: 20px;
+
+
+
+/* Charging Station info */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 297px;
+height: 90.5px;
+
+/* Container
+
+Use this color style for each container
+*/
+background: linear-gradient(179.69deg, rgba(18, 22, 36, 0) -18.31%, #121624 99.73%);
+border-radius: 0px 0px 10px 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Station info */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 281px;
+height: 45.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Station */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 87.38px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* 1 */
+
+width: 9px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 51px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 18px;
+height: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 6.5px;
+line-height: 8px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 48095791 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 75px;
+height: 11px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Repair Kit */
+
+width: 51px;
+height: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 10px;
+/* identical to box height, or 95% */
+letter-spacing: -0.155px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 1 */
+
+width: 20.5px;
+height: 0px;
+
+border: 0.5px solid rgba(255, 255, 255, 0.1);
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Progress ring */
+
+width: 90.25px;
+height: 45.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+position: absolute;
+width: 34.5px;
+height: 15px;
+left: calc(50% - 34.5px/2 + 0.12px);
+top: 21px;
+
+
+
+/* Pourcentage */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 34.5px;
+height: 15px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 🦆 icon "hammer" */
+
+width: 8.75px;
+height: 8.75px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 86.65%;
+top: 47.92%;
+bottom: 20.83%;
+
+background: #77C2BA;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.45%;
+right: 74.64%;
+top: 20.83%;
+bottom: 36.46%;
+
+background: #77C2BA;
+
+
+/* 75% */
+
+width: 25px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Base */
+
+position: absolute;
+left: 2.75px;
+right: 2.5px;
+top: 2.75px;
+bottom: -42.25px;
+
+background: rgba(39, 55, 207, 0.3);
+
+
+/* Progress */
+
+position: absolute;
+left: 2.75px;
+right: 2.5px;
+top: 2.75px;
+bottom: -42.25px;
+
+background: linear-gradient(91.84deg, #2737CF 7.56%, #DA1A41 83.2%);
+
+
+/* Outline */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0.12px;
+bottom: -44.88px;
+
+background: rgba(39, 55, 207, 0.3);
+
+
+/* Rule */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 90.25px;
+height: 0px;
+left: 0.62px;
+top: 45px;
+
+
+
+/* Line 2 */
+
+width: 20.5px;
+height: 0px;
+
+border: 0.5px solid rgba(255, 255, 255, 0.1);
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Time */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 87.38px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+
+/* 9 */
+
+width: 12px;
+height: 21px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+
+width: 73.38px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Remaining */
+
+width: 32px;
+height: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 6.5px;
+line-height: 8px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Time */
+
+width: 27px;
+height: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 10px;
+/* identical to box height, or 95% */
+letter-spacing: -0.155px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Time */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 13px;
+
+width: 281px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Starting time */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 127.5px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Start Time */
+
+width: 33px;
+height: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 6.5px;
+line-height: 8px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* 9: 32 AM */
+
+width: 127.5px;
+height: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 10px;
+/* identical to box height, or 95% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.155px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Line 3 */
+
+width: 21px;
+height: 0px;
+
+border: 0.5px solid rgba(255, 255, 255, 0.6);
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Ending time */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 127.5px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* End Time */
+
+width: 29px;
+height: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 6.5px;
+line-height: 8px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ongoing */
+
+width: 127.5px;
+height: 11px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 10px;
+/* identical to box height, or 95% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.155px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
